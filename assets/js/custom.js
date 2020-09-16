@@ -210,26 +210,7 @@ $(document).ready(function($) {
 
     // Magnific Popup
 
-    var $popupImage = $(".popup-image");
-
-    if ( $popupImage.length > 0 ) {
-        $popupImage.magnificPopup({
-            type:'image',
-            fixedContentPos: false,
-            gallery: { enabled:true },
-            removalDelay: 300,
-            mainClass: 'mfp-fade',
-            callbacks: {
-                // This prevents pushing the entire page to the right after opening Magnific popup image
-                open: function() {
-                    $(".page-wrapper, .navbar-nav").css("margin-right", getScrollBarWidth());
-                },
-                close: function() {
-                    $(".page-wrapper, .navbar-nav").css("margin-right", 0);
-                }
-            }
-        });
-    }
+    // Example with single object
 
     var $videoPopup = $(".video-popup");
 

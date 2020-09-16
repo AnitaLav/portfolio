@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="ThemeStarz">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
@@ -12,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/my-style.css">
 	<title>AniLav Portfolio</title>
 
 </head>
@@ -270,7 +270,7 @@ I currently live and work in Cyprus:)
                         <h3 class="my-3">
                             Let’s Work Together On Your Next Project!
                         </h3>
-                        <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Hire Me Now!</a>
+                        <a target="_blank" href="https://t.me/AniLavv" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Hire Me Now!</a>
                         <div class="ts-background ts-opacity__20" data-bg-image="assets/image/third.jpg"></div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@ I currently live and work in Cyprus:)
                                 turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus
                                 et ultrices posuere cubilia Curae
                             </p>
-                            <a href="#contact" class="btn btn-outline-light mb-5">Contact Me</a>
+                            <a target="_blank" href="https://t.me/AniLavv" class="btn btn-outline-light mb-5">Contact Me</a>
                         </div>
                         <!--end col-md-6-->
                         <div class="col-md-6">
@@ -357,7 +357,7 @@ I currently live and work in Cyprus:)
                     </div>
                     <!--end ts-title-->
                     <div class="card-columns ts-gallery ts-column-count-4">
-                        <a href="assets/img/img-work-01.png" class="card ts-gallery__item popup-image">
+                        <a id="web-gallery" href="assets/img/img-work-01.png" class="card ts-gallery__item">
                             <div class="ts-gallery__image">
                                 <div class="ts-gallery__item-description">
                                     <h4>Web</h4>
@@ -369,7 +369,7 @@ I currently live and work in Cyprus:)
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-02.png" class="card ts-gallery__item popup-image">
+                        <a id="graphic-gallery" href="assets/img/img-work-02.png" class="card ts-gallery__item">
                             <div class="ts-gallery__image">
                                 <div class="ts-gallery__item-description">
                                     <h4>Graphic</h4>
@@ -380,7 +380,7 @@ I currently live and work in Cyprus:)
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="assets/image/retouch_main.jpg" class="card ts-gallery__item popup-image">
+                        <a id="retouch-gallery" href="assets/image/retouch_main.jpg" class="card ts-gallery__item">
                             <div class="ts-gallery__image">
                                 <img src="assets/image/retouch_main.jpg" class="card-img" alt="">
                                 <div class="ts-gallery__item-description">
@@ -391,7 +391,7 @@ I currently live and work in Cyprus:)
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-04.png" class="card ts-gallery__item popup-image">
+                        <a id="qa-gallery" href="assets/img/img-work-04.png" class="card ts-gallery__item popup-image">
                             <div class="ts-gallery__image">
                                 <img src="assets/img/img-work-04.png" class="card-img" alt="">
                                 <div class="ts-gallery__item-description">
@@ -546,16 +546,13 @@ I currently live and work in Cyprus:)
     <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content border-0 rounded-0">
-                <div class="modal-header bg-light px-5 pt-0 pb-5">
-                    <div class="ts-title mb-0">
-                        <figure class="ts-circle__md bg-dark rounded-0">
-                            <img src="assets/image/web.svg" alt="">
-                        </figure>
+                <div class="modal-header bg-light px-5 pt-0">
+                    <div class="ts-title mb-0 mt-4">
                         <h4 class="mb-0">Web Design</h4>
                     </div>
 
                     <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-2" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="text-white">&times;</span>
+                        <span aria-hidden="true" class="">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-5">
@@ -564,12 +561,12 @@ I currently live and work in Cyprus:)
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="assets/img/img-work-detail-01.jpg" alt="">
+                                        <img class="stretch-image" src="assets/img/img-work-detail-01.jpg" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <p>
-                                            Website is your most important asset when it comes to establishing a great online presence. 
-Creating a website, I always aim to keep the perfect balance between form and function, each project has specific goals, target audience, 
+                                            Website is your most important asset when it comes to establishing a great online presence.
+Creating a website, I always aim to keep the perfect balance between form and function, each project has specific goals, target audience,
 and rhythm of use. My work is to ensure the visual clarity and functionality of every element of the interface and bring your business the best user experience.
                                         </p>
                                         <hr>
@@ -606,16 +603,13 @@ and rhythm of use. My work is to ensure the visual clarity and functionality of 
     <div class="modal fade text-dark" id="modal-graphic-design" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content border-0 rounded-0">
-                <div class="modal-header bg-light px-5 pt-0 pb-5">
+                <div class="modal-header bg-light px-5 pt-0">
                     <div class="ts-title mb-0">
-                        <figure class="ts-circle__md bg-dark rounded-0">
-                            <img src="assets/image/graphic.svg" alt="">
-                        </figure>
-                        <h4 class="mb-0">Graphic Design</h4>
+                        <h4 class="mb-0 mt-4">Graphic Design</h4>
                     </div>
 
                     <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-2" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="text-white">&times;</span>
+                        <span aria-hidden="true" class="">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-5">
@@ -624,13 +618,13 @@ and rhythm of use. My work is to ensure the visual clarity and functionality of 
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="assets/image/modal_graphic.png" alt="">
+                                        <img class="stretch-image" src="assets/image/modal_graphic.png" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <p>
                                             Graphic design is an integral part of the corporate identity of any business.
-                                            There is no limit to what you want to design. Whether you need a spectacular corporate identity, flyers, business cards, banners, brochures, 
-                                            covers, posters, packagings and so on. I will help you make all your ideas come true. I'm ready for the most daring decisions and non-standard tasks, 
+                                            There is no limit to what you want to design. Whether you need a spectacular corporate identity, flyers, business cards, banners, brochures,
+                                            covers, posters, packagings and so on. I will help you make all your ideas come true. I'm ready for the most daring decisions and non-standard tasks,
                                             the purpose of which is to help your business become recognizable.
                                         </p>
                                         <hr>
@@ -664,16 +658,13 @@ and rhythm of use. My work is to ensure the visual clarity and functionality of 
     <div class="modal fade text-dark" id="modal-retouch" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content border-0 rounded-0">
-                <div class="modal-header bg-light px-5 pt-0 pb-5">
-                    <div class="ts-title mb-0">
-                        <figure class="ts-circle__md bg-dark rounded-0">
-                            <img src="assets/image/retouch.svg" alt="">
-                        </figure>
+                <div class="modal-header bg-light px-5 pt-0">
+                    <div class="ts-title mb-0 mt-4">
                         <h4 class="mb-0">Retouch</h4>
                     </div>
 
                     <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-2" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="text-white">&times;</span>
+                        <span aria-hidden="true" class="">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body p-5">
@@ -682,12 +673,12 @@ and rhythm of use. My work is to ensure the visual clarity and functionality of 
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="assets/image/modal_retouch.png" alt="">
+                                        <img class="stretch-image" src="assets/image/modal_retouch.png" alt="">
                                     </div>
                                     <div class="col-md-8">
                                         <p>
-                                            I help the client delivering perfect images and photos. I'm passionate to bring out the inner beauty of Every photo. 
-I offer ultimate glamour look of your photographs. Maintaining the skin tone, advanced sharpening, adding realistic make-up, removing unnecessary things and 
+                                            I help the client delivering perfect images and photos. I'm passionate to bring out the inner beauty of Every photo.
+I offer ultimate glamour look of your photographs. Maintaining the skin tone, advanced sharpening, adding realistic make-up, removing unnecessary things and
 I ensure fresh skin texture, the exact depth and details. Henceforth, you get the perfectly retouched images that attract your clients.
                                         </p>
                                         <hr>
@@ -731,6 +722,7 @@ I ensure fresh skin texture, the exact depth and details. Henceforth, you get th
 	<script src="assets/js/odometer.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/portfolio.js"></script>
 
 </body>
 </html>
