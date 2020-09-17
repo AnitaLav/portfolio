@@ -22,19 +22,28 @@ $(document).ready(function($) {
     Object.assign({}, popupConfig, {
       items: [
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/W_1.png'
         },
         {
-          src: 'assets/image/portfolio/web/retouch_main.jpg'
+          src: 'assets/image/portfolio/W_2.png'
         },
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/W_3.png'
         },
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/iimage/portfolio/W_4.png'
         },
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/W_5.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_6.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_7.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_8.png'
         }
       ],
     })
@@ -57,10 +66,62 @@ $(document).ready(function($) {
     Object.assign({}, popupConfig, {
       items: [
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/R_1.png'
         },
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/R_2.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_3.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_4.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_5.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_6.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_7.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_8.png'
+        }
+        ,
+        {
+          src: 'assets/image/portfolio/R_9.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_10.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_11.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_12.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_13.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_14.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_15.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_16.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_17.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_18.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_19.png'
         }
       ],
     })
