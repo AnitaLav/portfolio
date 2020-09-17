@@ -3,7 +3,7 @@ $(document).ready(function($) {
 
   var popupConfig = {
     type:'image',
-    fixedContentPos: false,
+    // fixedContentPos: false,
     gallery: { enabled:true },
     removalDelay: 300,
     mainClass: 'mfp-fade',
@@ -18,8 +18,21 @@ $(document).ready(function($) {
     }
   };
 
+  function changeImgSize() {
+    var img = this.content.find('img');
+    // img.css('max-height', '100%');
+    // img.css('width', 'auto');
+    // img.css('max-width', '75%');
+  }
+
   $('#web-gallery').magnificPopup(
     Object.assign({}, popupConfig, {
+      mainClass: 'mfp-fade mfp-fullwidth lol',
+      callbacks: {
+        resize: changeImgSize,
+        imageLoadComplete: changeImgSize,
+        change: changeImgSize,
+      },
       items: [
         {
           src: 'assets/image/portfolio/W_1.png'
@@ -51,6 +64,11 @@ $(document).ready(function($) {
 
   $('#graphic-gallery').magnificPopup(
     Object.assign({}, popupConfig, {
+      callbacks: {
+        resize: changeImgSize,
+        imageLoadComplete: changeImgSize,
+        change: changeImgSize,
+      },
       items: [
         {
           src: 'assets/image/retouch_main.jpg'

@@ -3,3 +3,13 @@
     height: 100%;
     width: 100%;
 }
+
+.mfp-arrow {
+    position: fixed;
+}
+
+.mfp-fullwidth .mfp-img {
+    max-height: 100% !important;
+    width: auto !important;
+    max-width: 75% !important;
+}
