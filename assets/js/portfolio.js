@@ -18,45 +18,37 @@ $(document).ready(function($) {
     }
   };
 
-  function changeImgSize() {
-    var img = this.content.find('img');
-    // img.css('max-height', '100%');
-    // img.css('width', 'auto');
-    // img.css('max-width', '75%');
-  }
 
   $('#web-gallery').magnificPopup(
     Object.assign({}, popupConfig, {
-      mainClass: 'mfp-fade mfp-fullwidth lol',
-      callbacks: {
-        resize: changeImgSize,
-        imageLoadComplete: changeImgSize,
-        change: changeImgSize,
-      },
+      mainClass: 'mfp-fade mfp-fullwidth',
       items: [
         {
-          src: 'assets/image/portfolio/W_1.png'
+          src: 'assets/image/portfolio/W_2.png'
         },
         {
-          src: 'assets/image/portfolio/W_2.png'
+          src: 'assets/image/portfolio/W_1.png'
         },
         {
           src: 'assets/image/portfolio/W_3.png'
         },
         {
-          src: 'assets/iimage/portfolio/W_4.png'
+          src: 'assets/image/portfolio/W_4.png'
         },
         {
           src: 'assets/image/portfolio/W_5.png'
         },
         {
-          src: 'assets/image/portfolio/W_6.png'
-        },
-        {
           src: 'assets/image/portfolio/W_7.png'
         },
         {
+          src: 'assets/image/portfolio/W_6.png'
+        },
+        {
           src: 'assets/image/portfolio/W_8.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_9.png'
         }
       ],
     })
@@ -64,17 +56,31 @@ $(document).ready(function($) {
 
   $('#graphic-gallery').magnificPopup(
     Object.assign({}, popupConfig, {
-      callbacks: {
-        resize: changeImgSize,
-        imageLoadComplete: changeImgSize,
-        change: changeImgSize,
-      },
+      mainClass: 'mfp-fade mfp-fullwidth',
       items: [
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/G_1.png'
         },
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/portfolio/G_2.jpg'
+        },
+        {
+          src: 'assets/image/portfolio/G_3.jpg'
+        },
+        {
+          src: 'assets/image/portfolio/G_4.jpeg'
+        },
+        {
+          src: 'assets/image/portfolio/G_5.png'
+        },
+        {
+          src: 'assets/image/portfolio/G_6.png'
+        },
+        {
+          src: 'assets/image/portfolio/G_7.png'
+        },
+        {
+          src: 'assets/image/portfolio/G_9.png'
         }
       ],
     })

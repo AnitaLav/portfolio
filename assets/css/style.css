@@ -1507,6 +1507,7 @@ form.ts-labels-inside-input .form-group label.focused,
 .ts-gallery .ts-gallery__item {
     border-radius: 0;
     background-color: transparent;
+    overflow: visible;
 }
 
 .ts-gallery .ts-gallery__item .ts-gallery__item-description {
@@ -1534,7 +1535,7 @@ form.ts-labels-inside-input .form-group label.focused,
 }
 
 .ts-gallery .ts-gallery__item:hover img {
-    transform: scale(1.3) rotate(-9deg);
+    /* transform: scale(1.3) rotate(-9deg); */
 }
 
 .ts-gallery .ts-gallery__item h4 {
