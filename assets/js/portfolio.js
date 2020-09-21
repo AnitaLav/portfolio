@@ -49,6 +49,9 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/W_9.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_10.png'
         }
       ],
     })
@@ -146,6 +149,15 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/R_19.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_20.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_21.png'
+        },
+        {
+          src: 'assets/image/portfolio/R_22.png'
         }
       ],
     })
