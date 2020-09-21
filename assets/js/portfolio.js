@@ -84,6 +84,9 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/G_9.png'
+        },
+        {
+          src: 'assets/image/portfolio/G_12.png'
         }
       ],
     })
