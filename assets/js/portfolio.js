@@ -170,11 +170,8 @@ $(document).ready(function($) {
     Object.assign({}, popupConfig, {
       items: [
         {
-          src: 'assets/image/retouch_main.jpg'
+          src: 'assets/image/img-work-01.png'
         },
-        {
-          src: 'assets/image/retouch_main.jpg'
-        }
       ],
     })
   );
