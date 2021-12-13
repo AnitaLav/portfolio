@@ -34,21 +34,21 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/W_4.png'
-        },
+        },        
         {
-          src: 'assets/image/portfolio/W_5.png'
+          src: 'assets/image/portfolio/W_8.jpg'
         },
         {
           src: 'assets/image/portfolio/W_7.png'
         },
         {
-          src: 'assets/image/portfolio/W_6.png'
-        },
-        {
-          src: 'assets/image/portfolio/W_8.png'
+          src: 'assets/image/portfolio/W_5.png'
         },
         {
           src: 'assets/image/portfolio/W_9.png'
+        },
+        {
+          src: 'assets/image/portfolio/W_6.png'
         },
         {
           src: 'assets/image/portfolio/W_10.png'
@@ -62,13 +62,16 @@ $(document).ready(function($) {
       mainClass: 'mfp-fade mfp-fullwidth',
       items: [
         {
+          src: 'assets/image/portfolio/G_11.jpg'
+        },
+        {
+          src: 'assets/image/portfolio/G_13.jpg'
+        },        
+        {
+          src: 'assets/image/portfolio/G_15.jpg'
+        },
+        {
           src: 'assets/image/portfolio/G_1.png'
-        },
-        {
-          src: 'assets/image/portfolio/G_2.jpg'
-        },
-        {
-          src: 'assets/image/portfolio/G_3.jpg'
         },
         {
           src: 'assets/image/portfolio/G_4.jpeg'
@@ -80,14 +83,17 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/G_6.png'
         },
         {
+          src: 'assets/image/portfolio/G_14.jpg'
+        },
+        {
           src: 'assets/image/portfolio/G_7.png'
+        },
+        {
+          src: 'assets/image/portfolio/G_10.png'
         },
         {
           src: 'assets/image/portfolio/G_9.png'
         },
-        {
-          src: 'assets/image/portfolio/G_12.png'
-        }
       ],
     })
   );
@@ -118,8 +124,7 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/R_8.png'
-        }
-        ,
+        },
         {
           src: 'assets/image/portfolio/R_9.png'
         },
@@ -170,7 +175,19 @@ $(document).ready(function($) {
     Object.assign({}, popupConfig, {
       items: [
         {
-          src: 'assets/image/cristals.png'
+          src: 'assets/image/M-1.png'
+        },
+        {
+          src: 'assets/image/M-2.png'
+        },
+        {
+          src: 'assets/image/M-3.png'
+        },
+        {
+          src: 'assets/image/M-4.png'
+        },
+        {
+          src: 'assets/image/M-5.jpg'
         },
       ],
     })
