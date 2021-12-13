@@ -166,11 +166,11 @@ $(document).ready(function($) {
     })
   );
 
-  $('#qa-gallery').magnificPopup(
+  $('#3d-gallery').magnificPopup(
     Object.assign({}, popupConfig, {
       items: [
         {
-          src: 'assets/image/img-work-01.png'
+          src: 'assets/image/cristals.png'
         },
       ],
     })
