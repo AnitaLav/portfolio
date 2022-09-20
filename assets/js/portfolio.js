@@ -57,13 +57,13 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/PRF4.png'
         },
         {
-          src: 'assets/image/portfolio/PRF7.png'
+          src: 'assets/image/portfolio/PRF6.png'
         },
         {
           src: 'assets/image/portfolio/PRF5.png'
         },
         {
-          src: 'assets/image/portfolio/PRF7.png'
+          src: 'assets/image/portfolio/PRF7.jpg'
         }
       ],
     })
