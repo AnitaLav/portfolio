@@ -27,12 +27,6 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/W_2.png'
         },
         {
-          src: 'assets/image/portfolio/W_1.png'
-        },
-        {
-          src: 'assets/image/portfolio/W_3.png'
-        },
-        {
           src: 'assets/image/portfolio/PRF1.png'
         },        
         {
@@ -40,9 +34,6 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/PRF2.png'
-        },
-        {
-          src: 'assets/image/portfolio/W_5.png'
         },
         {
           src: 'assets/image/portfolio/W_9.png'
