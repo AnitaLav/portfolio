@@ -33,13 +33,13 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/W_3.png'
         },
         {
-          src: 'assets/image/portfolio/W_4.png'
+          src: 'assets/image/portfolio/PRF1.png'
         },        
         {
           src: 'assets/image/portfolio/W_8.jpg'
         },
         {
-          src: 'assets/image/portfolio/W_7.png'
+          src: 'assets/image/portfolio/PRF2.png'
         },
         {
           src: 'assets/image/portfolio/W_5.png'
@@ -48,10 +48,22 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/W_9.png'
         },
         {
-          src: 'assets/image/portfolio/W_6.png'
+          src: 'assets/image/portfolio/PRF3.png'
         },
         {
           src: 'assets/image/portfolio/W_10.png'
+        },
+        {
+          src: 'assets/image/portfolio/PRF4.png'
+        },
+        {
+          src: 'assets/image/portfolio/PRF7.png'
+        },
+        {
+          src: 'assets/image/portfolio/PRF5.png'
+        },
+        {
+          src: 'assets/image/portfolio/PRF7.png'
         }
       ],
     })
