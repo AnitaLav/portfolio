@@ -33,7 +33,7 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/PRF1.png'
         },        
         {
-          src: 'assets/image/portfolio/W_8.jpg'
+          src: 'assets/image/portfolio/PRF9.jpg'
         },
         {
           src: 'assets/image/portfolio/PRF2.png'
@@ -190,7 +190,7 @@ $(document).ready(function($) {
           src: 'assets/image/M-8.png'
         },
         {
-          src: 'assets/image/M-9.png'
+          src: 'assets/image/M-9.jpg'
         },
       ],
     })
