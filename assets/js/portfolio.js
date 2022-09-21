@@ -27,6 +27,9 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/W_2.png'
         },
         {
+          src: 'assets/image/portfolio/PRF8.png'
+        },
+        {
           src: 'assets/image/portfolio/PRF1.png'
         },        
         {
@@ -40,9 +43,6 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/portfolio/PRF3.png'
-        },
-        {
-          src: 'assets/image/portfolio/W_10.png'
         },
         {
           src: 'assets/image/portfolio/PRF4.png'
@@ -120,9 +120,6 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/R_5.png'
         },
         {
-          src: 'assets/image/portfolio/R_6.png'
-        },
-        {
           src: 'assets/image/portfolio/R_7.png'
         },
         {
@@ -138,13 +135,7 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/R_11.png'
         },
         {
-          src: 'assets/image/portfolio/R_12.png'
-        },
-        {
           src: 'assets/image/portfolio/R_13.png'
-        },
-        {
-          src: 'assets/image/portfolio/R_14.png'
         },
         {
           src: 'assets/image/portfolio/R_15.png'
@@ -181,9 +172,6 @@ $(document).ready(function($) {
           src: 'assets/image/M-1.png'
         },
         {
-          src: 'assets/image/M-2.png'
-        },
-        {
           src: 'assets/image/M-3.png'
         },
         {
@@ -191,6 +179,18 @@ $(document).ready(function($) {
         },
         {
           src: 'assets/image/M-5.jpg'
+        },
+        {
+          src: 'assets/image/M-6.png'
+        },
+        {
+          src: 'assets/image/M-7.png'
+        },
+        {
+          src: 'assets/image/M-8.png'
+        },
+        {
+          src: 'assets/image/M-9.png'
         },
       ],
     })
