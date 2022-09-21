@@ -184,7 +184,7 @@ $(document).ready(function($) {
           src: 'assets/image/M-6.png'
         },
         {
-          src: 'assets/image/M-7.png'
+          src: 'assets/image/M-7.jpg'
         },
         {
           src: 'assets/image/M-8.png'
