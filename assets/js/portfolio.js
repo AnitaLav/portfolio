@@ -147,16 +147,10 @@ $(document).ready(function($) {
           src: 'assets/image/portfolio/R_17.png'
         },
         {
-          src: 'assets/image/portfolio/R_18.png'
-        },
-        {
           src: 'assets/image/portfolio/R_19.png'
         },
         {
           src: 'assets/image/portfolio/R_20.png'
-        },
-        {
-          src: 'assets/image/portfolio/R_21.png'
         },
         {
           src: 'assets/image/portfolio/R_22.png'
